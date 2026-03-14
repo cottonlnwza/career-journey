@@ -1,5 +1,13 @@
 # ABU Robocon 2025
 
+## My Role
+
+- Robotics developer
+- System testing
+- Hardware integration
+
+---
+
 ## Overview
 ABU Robocon 2025 robotics competition.
 
@@ -14,13 +22,6 @@ Detail2...
 
 ---
 
-## My Role
-
-- Robotics developer
-- System testing
-- Hardware integration
-
----
 
 ## Development Process
 

@@ -1,5 +1,7 @@
 # Competitions
 
+This section records competitions, activities, workshops, and experiences that helped me grow.
+
 ## 2026
 ### ABU Robocon 2026
 - Role: Robotics Developer

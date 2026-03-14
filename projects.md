@@ -1,13 +1,15 @@
 # Projects
 
-## 2026
-### Exhibition Web Application
-- Built backend with Node.js, Express, MongoDB
-- Added search with Elasticsearch
+This section contains the projects I have worked on in academic, personal, and technical areas.
 
-### Robot Control System
-- Worked on Raspberry Pi and Arduino communication
+## 2026
+### Career Journey Repository
+- Built a GitHub repository to collect my learning, projects, competitions, and future goals
+- Used GitHub Desktop and Markdown for project organization
+
+### Robotics / Engineering Projects
+- Worked on robotics-related development and technical practice
 
 ## 2025
-### Mini Embedded Projects
-- Sensor testing and motor experiments
+### Technical Practice Projects
+- Built and tested small engineering and programming projects

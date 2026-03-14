@@ -31,7 +31,7 @@ The robot system is divided into several modules.
 ### Motor Control
 Controls the movement of the robot wheels.
 
-[View Code](code/motor_control)
+[IOXesp32_receiverPs5](code/Esp_receiverPs5.ino)
 
 ### Navigation System
 Handles robot navigation and path planning.

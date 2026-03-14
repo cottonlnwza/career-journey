@@ -23,13 +23,6 @@ This repository is my professional journey space, where I collect my learning ex
 I want to keep improving my skills through learning, building real projects, and joining competitions, so that I can prepare myself for future internships and jobs.
 
 ## Sections
-- Learning
-- Projects
-- Competitions
-- Skills
-- Future Goals
-
-## Sections
 - [About Me](about-me.md)
 - [Learning](learning.md)
 - [Projects](projects.md)

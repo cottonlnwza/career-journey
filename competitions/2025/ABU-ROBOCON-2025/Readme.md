@@ -24,14 +24,26 @@ This project focuses on robot design, embedded control systems, and team enginee
 
 ## Project Files
 
-### Code
-- [Robot Control Code](code)
+## Code
 
-### Design
-- [CAD / DXF files](design)
+The robot system is divided into several modules.
 
-### Documents
-- [Technical documents](docs)
+### Motor Control
+Controls the movement of the robot wheels.
 
-### Images
-- [Robot photos](images)
+[View Code](code/motor_control)
+
+### Navigation System
+Handles robot navigation and path planning.
+
+[View Code](code/navigation)
+
+### LiDAR Processing
+Processes LiDAR sensor data for obstacle detection.
+
+[View Code](code/lidar_processing)
+
+### Servo Mechanism
+Controls the lifting mechanism of the robot.
+
+[View Code](code/servo_control)

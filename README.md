@@ -28,3 +28,11 @@ I want to keep improving my skills through learning, building real projects, and
 - Competitions
 - Skills
 - Future Goals
+
+## Sections
+- [About Me](about-me.md)
+- [Learning](learning.md)
+- [Projects](projects.md)
+- [Competitions](competitions.md)
+- [Skills](skills.md)
+- [Future Goals](future-goals.md)

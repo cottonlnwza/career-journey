@@ -8,4 +8,4 @@ This section records competitions, activities, workshops, and experiences that h
 - [Competition 3](competitions/2026/competition-3/README.md)
 
 ## 2025
-- [ABU Robocon 2025](competitions/2025/README.md)
+- [ABU Robocon 2025](competitions/2025/ABU-ROBOCON-2025/Readme.md)

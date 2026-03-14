@@ -3,10 +3,9 @@
 This section records competitions, activities, workshops, and experiences that helped me grow.
 
 ## 2026
-### ABU Robocon 2026
-- Role: Robotics Developer
-- Worked on robot control, system integration, and testing
+- [ABU Robocon 2026](competitions/2026/abu-robocon-2026/README.md)
+- [Competition 2](competitions/2026/competition-2/README.md)
+- [Competition 3](competitions/2026/competition-3/README.md)
 
 ## 2025
-### Engineering Activities
-- Participated in technical workshops and team projects
+- [Engineering Activities 2025](competitions/2025/README.md)

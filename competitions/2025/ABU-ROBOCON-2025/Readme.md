@@ -5,7 +5,12 @@ ABU Robocon 2025 robotics competition.
 
 This project focuses on robot design, embedded control systems, and team engineering.
 
-![Robot](images/Robot.png)
+<img src="images/Robot.png" width="600">
+
+
+Detail2...
+
+
 
 ---
 

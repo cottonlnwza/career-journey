@@ -21,6 +21,11 @@ Detail2...
 
 
 ---
+## Robot Demo
+
+Watch the robot testing video.
+
+[![Robot Demo](https://img.youtube.com/vi/t7uNSp26r1U/0.jpg)](https://youtu.be/t7uNSp26r1U)
 
 
 ## Development Process

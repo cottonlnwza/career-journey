@@ -1,29 +1,43 @@
 # Career Journey
 
 ## About Me
-I am a Computer Engineering student who is interested in robotics, embedded systems, software development, and problem solving.
+I am a Computer Engineering student interested in robotics, embedded systems, and software development.
 
-This repository is my professional journey space, where I collect my learning experiences, projects, competitions, and future goals.
+I enjoy building engineering projects, experimenting with hardware systems, and solving technical problems.
 
-## What You Can Find Here
-- My learning journey
-- Academic and personal projects
-- Competition and activity experience
-- Technical skills
-- Future career goals
+This repository documents my engineering journey, including my projects, competitions, learning experiences, and future goals.
 
-## My Interests
+---
+
+## Areas of Interest
 - Robotics
 - Embedded Systems
 - Software Development
 - Algorithms and Problem Solving
 - Engineering Projects
 
-## Current Goal
-I want to keep improving my skills through learning, building real projects, and joining competitions, so that I can prepare myself for future internships and jobs.
+---
 
-## Sections
-- [About Me](about-me.md)
+## What You Can Find in This Repository
+This repository is organized to document my growth as an engineer.
+
+Here you will find:
+
+- My learning journey
+- Academic and personal projects
+- Competition experiences
+- Technical skills
+- Future career goals
+
+---
+
+## Current Focus
+I am currently focusing on improving my skills in robotics systems, embedded programming, and engineering problem solving through projects and competitions.
+
+---
+
+## Repository Sections
+
 - [Learning](learning.md)
 - [Projects](projects.md)
 - [Competitions](competitions.md)

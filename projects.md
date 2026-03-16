@@ -3,13 +3,11 @@
 This section contains the projects I have worked on in academic, personal, and technical areas.
 
 ## 2026
-### Career Journey Repository
-- Built a GitHub repository to collect my learning, projects, competitions, and future goals
-- Used GitHub Desktop and Markdown for project organization
+- [Boxing Robot](competitions/2026/abu-robocon-2026/README.md)
+- [Fruit Game Shop](competitions/2026/abu-robocon-2026/README.md)
+- [Educational Robot](competitions/2026/abu-robocon-2026/README.md)
 
-### Robotics / Engineering Projects
-- Worked on robotics-related development and technical practice
 
 ## 2025
-### Technical Practice Projects
-- Built and tested small engineering and programming projects
+
+- [Project CPE : เครื่องต้นแบบการตรวจสอบเห็ดอัตโนมัติ](competitions/2026/abu-robocon-2026/README.md)

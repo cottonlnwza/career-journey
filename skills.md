@@ -8,6 +8,15 @@
 - Arduino
 - Raspberry Pi
 
+## Mechanical & Manufacturing Skills
+- Milling
+- Lathe
+- Laser Cutting
+- 3D Printing
+- Arc Welding
+- Gas Welding
+- Mechanical Assembly
+
 ## Engineering Skills
 - Problem Solving
 - Teamwork

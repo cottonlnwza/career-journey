@@ -177,6 +177,7 @@ void move_rack(int md, int mu) {
     digitalWrite(motorRACK2, HIGH);
   }
 }
+// test comment
 
 void pass_ball(int pb) {
   digitalWrite(feed_ball, (pb == 1) ? HIGH : LOW);

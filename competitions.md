@@ -3,7 +3,7 @@
 This section records competitions, activities, workshops, and experiences that helped me grow.
 
 ## 2026
-- [ABU Robocon 2026](competitions/2026/abu-robocon-2026/README.md)
+- [ABU Robocon 2026](competitions/2025/ABU-ROBOCON-2025/Readme.md)
 - [SUTD Student Exchange Program 2026](competitions/2026/competition-2/README.md)
 - [SMO Student Organization Activity 2026](competitions/2026/competition-3/README.md)
 - [Modcom Express 2026](competitions/2026/competition-3/README.md)

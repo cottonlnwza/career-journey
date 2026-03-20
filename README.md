@@ -40,6 +40,6 @@ I am currently focusing on improving my skills in robotics systems, embedded pro
 
 - [Learning](learning.md)
 - [Projects](projects.md)
-- [Competitions](competitions.md)
+- [Competitions & Activities](competitions.md)
 - [Skills](skills.md)
 - [Future Goals](future-goals.md)

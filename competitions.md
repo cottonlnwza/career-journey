@@ -5,8 +5,8 @@ This section records competitions, activities, workshops, and experiences that h
 ## 2026
 - [ABU Robocon 2026](competitions/2025/ABU-ROBOCON-2025/Readme.md)
 - [SUTD Student Exchange Program 2026](competitions/2026/competition-2/README.md)
-- [SMO Student Organization Activity 2026](competitions/2026/competition-3/README.md)
-- [Modcom Express 2026](competitions/2026/competition-3/README.md)
+- SMO Student Organization Activity 2026
+- Modcom Express 2026
 
 ## 2025
 - [ABU Robocon 2025](competitions/2025/ABU-ROBOCON-2025/Readme.md)

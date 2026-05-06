@@ -34,3 +34,13 @@ Completed multiple workshops related to engineering technologies including:
 - Augmented Reality
 - Internet of Things
 - Engineering Circuit Analysis
+
+---
+
+## Repository Sections
+
+- [Learning](learning.md)
+- [Projects](projects.md)
+- [Competitions & Activities](competitions.md)
+- [Skills](skills.md)
+- [Future Goals](future-goals.md)

@@ -4,12 +4,12 @@ This section contains the projects I have worked on in academic, personal, and t
 
 ## 2026
 
-[Invoice Management System](projects/DATABASE/README.md)  - Full-stack invoice management system — customers, products, invoices, receipts, and reports.
-
-[Production Technology — Combat Robot](projects/PRODUCTION-TECHNOLOGY/README.md) — 3-wheel Omni combat robot with PS5 Bluetooth control, 2-axis arm, and semi-auto attack. Grade A.
+- [Invoice Management System](projects/DATABASE/README.md) — Full-stack invoice management system built with React 18, Node.js/Express, PostgreSQL, and Docker. Covers customers, products, invoices, receipts, and reports. Sole developer.
+- [Boxing Robot](projects/BOXING-ROBOT/README.md) — 3-wheel Omni combat robot with PS5 Bluetooth control, 2-axis arm, and semi-auto attack sequence. Team leader — designed all wiring diagrams and board layout. Production Technology coursework. Grade A.
 
 ## 2025
-[Pototype Mushroom Detection — เครื่องต้นแบบการตรวจสอบเห็ดอัตโนมัติ](projects/MUSHROOM-DETECTION/README.md)
+
+- [Mushroom Detection Prototype](projects/MUSHROOM-DETECTION/README.md) — Automatic mushroom inspection prototype using YOLOv8 + DeepSort on Raspberry Pi with LINE Bot alerts. Responsible for full mechanical design and enclosure in SolidWorks. CPE101 group project.
 
 ---
 

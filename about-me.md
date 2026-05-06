@@ -15,3 +15,14 @@ I am building my skills through coursework, projects, competitions, and technica
 
 ## Personal Direction
 I want to continue learning, building real projects, and gaining practical experience that can help me grow toward future engineering and technology careers.
+
+
+---
+
+## Repository Sections
+
+- [Learning](learning.md)
+- [Projects](projects.md)
+- [Competitions & Activities](competitions.md)
+- [Skills](skills.md)
+- [Future Goals](future-goals.md)

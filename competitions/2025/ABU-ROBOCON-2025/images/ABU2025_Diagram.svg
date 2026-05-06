@@ -1,0 +1,84 @@
+<svg viewBox="0 0 680 420" xmlns="http://www.w3.org/2000/svg" role="img" font-family="sans-serif" style="">
+  <title style="fill:rgb(0, 0, 0);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto">Robocon 2025 Manual Robot — System Diagram</title>
+  <desc style="fill:rgb(0, 0, 0);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto">Communication flow from PS5 controller through IOXESP32 and Arduino to motors and sensors</desc>
+
+  <defs>
+    <marker id="arr" markerWidth="8" markerHeight="8" refX="7" refY="3.5" orient="auto">
+      <path d="M0,0 L0,7 L8,3.5 Z" fill="#888780"/>
+    </marker>
+    <marker id="arr-blue" markerWidth="8" markerHeight="8" refX="7" refY="3.5" orient="auto">
+      <path d="M0,0 L0,7 L8,3.5 Z" fill="#378ADD"/>
+    </marker>
+    <marker id="arr-teal" markerWidth="8" markerHeight="8" refX="7" refY="3.5" orient="auto">
+      <path d="M0,0 L0,7 L8,3.5 Z" fill="#1D9E75"/>
+    </marker>
+  </defs>
+
+  <!-- PS5 Controller -->
+  <rect x="20" y="170" width="110" height="60" rx="4" fill="#E6F1FB" stroke="#378ADD" stroke-width="0.5" style="fill:rgb(230, 241, 251);stroke:rgb(55, 138, 221);color:rgb(255, 255, 255);stroke-width:0.5px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <text x="75" y="194" text-anchor="middle" font-size="12" font-weight="500" fill="#0C447C" style="fill:rgb(12, 68, 124);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:sans-serif;font-size:12px;font-weight:500;text-anchor:middle;dominant-baseline:auto">PS5</text>
+  <text x="75" y="210" text-anchor="middle" font-size="11" fill="#185FA5" style="fill:rgb(24, 95, 165);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:sans-serif;font-size:11px;font-weight:400;text-anchor:middle;dominant-baseline:auto">Controller</text>
+  <text x="75" y="224" text-anchor="middle" font-size="10" fill="#378ADD" style="fill:rgb(55, 138, 221);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:sans-serif;font-size:10px;font-weight:400;text-anchor:middle;dominant-baseline:auto">Input device</text>
+
+  <!-- Arrow PS5 → ESP32 -->
+  <line x1="130" y1="200" x2="195" y2="200" stroke="#378ADD" stroke-width="1.5" marker-end="url(#arr-blue)" style="fill:rgb(0, 0, 0);stroke:rgb(55, 138, 221);color:rgb(255, 255, 255);stroke-width:1.5px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <text x="162" y="190" text-anchor="middle" font-size="10" fill="#185FA5" style="fill:rgb(24, 95, 165);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:sans-serif;font-size:10px;font-weight:400;text-anchor:middle;dominant-baseline:auto">Bluetooth</text>
+  <text x="162" y="214" text-anchor="middle" font-size="10" fill="#185FA5" style="fill:rgb(24, 95, 165);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:sans-serif;font-size:10px;font-weight:400;text-anchor:middle;dominant-baseline:auto">2.4G</text>
+
+  <!-- IOXESP32 -->
+  <rect x="196" y="155" width="120" height="90" rx="4" fill="#EEEDFE" stroke="#534AB7" stroke-width="0.5" style="fill:rgb(238, 237, 254);stroke:rgb(83, 74, 183);color:rgb(255, 255, 255);stroke-width:0.5px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <text x="256" y="181" text-anchor="middle" font-size="12" font-weight="500" fill="#26215C" style="fill:rgb(38, 33, 92);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:sans-serif;font-size:12px;font-weight:500;text-anchor:middle;dominant-baseline:auto">IOXESP32</text>
+  <text x="256" y="197" text-anchor="middle" font-size="10" fill="#3C3489" style="fill:rgb(60, 52, 137);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:sans-serif;font-size:10px;font-weight:400;text-anchor:middle;dominant-baseline:auto">ps5-esp32 lib</text>
+  <text x="256" y="212" text-anchor="middle" font-size="10" fill="#3C3489" style="fill:rgb(60, 52, 137);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:sans-serif;font-size:10px;font-weight:400;text-anchor:middle;dominant-baseline:auto">External antenna</text>
+  <text x="256" y="227" text-anchor="middle" font-size="10" fill="#3C3489" style="fill:rgb(60, 52, 137);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:sans-serif;font-size:10px;font-weight:400;text-anchor:middle;dominant-baseline:auto">Raw joystick values</text>
+
+  <!-- Arrow ESP32 → Arduino -->
+  <line x1="316" y1="200" x2="381" y2="200" stroke="#888780" stroke-width="1.5" marker-end="url(#arr)" style="fill:rgb(0, 0, 0);stroke:rgb(136, 135, 128);color:rgb(255, 255, 255);stroke-width:1.5px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <text x="348" y="190" text-anchor="middle" font-size="10" fill="#5F5E5A" style="fill:rgb(95, 94, 90);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:sans-serif;font-size:10px;font-weight:400;text-anchor:middle;dominant-baseline:auto">Serial UART</text>
+  <text x="348" y="214" text-anchor="middle" font-size="10" fill="#5F5E5A" style="fill:rgb(95, 94, 90);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:sans-serif;font-size:10px;font-weight:400;text-anchor:middle;dominant-baseline:auto">RX/TX · String</text>
+
+  <!-- Arduino -->
+  <rect x="382" y="155" width="120" height="90" rx="4" fill="#E1F5EE" stroke="#0F6E56" stroke-width="0.5" style="fill:rgb(225, 245, 238);stroke:rgb(15, 110, 86);color:rgb(255, 255, 255);stroke-width:0.5px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <text x="442" y="181" text-anchor="middle" font-size="12" font-weight="500" fill="#04342C" style="fill:rgb(4, 52, 44);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:sans-serif;font-size:12px;font-weight:500;text-anchor:middle;dominant-baseline:auto">Arduino</text>
+  <text x="442" y="197" text-anchor="middle" font-size="10" fill="#085041" style="fill:rgb(8, 80, 65);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:sans-serif;font-size:10px;font-weight:400;text-anchor:middle;dominant-baseline:auto">Motion control</text>
+  <text x="442" y="212" text-anchor="middle" font-size="10" fill="#085041" style="fill:rgb(8, 80, 65);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:sans-serif;font-size:10px;font-weight:400;text-anchor:middle;dominant-baseline:auto">Sensor management</text>
+  <text x="442" y="227" text-anchor="middle" font-size="10" fill="#085041" style="fill:rgb(8, 80, 65);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:sans-serif;font-size:10px;font-weight:400;text-anchor:middle;dominant-baseline:auto">PWM output</text>
+
+  <!-- Arrow Arduino → Mecanum Motors -->
+  <line x1="502" y1="178" x2="548" y2="110" stroke="#1D9E75" stroke-width="1.5" marker-end="url(#arr-teal)" style="fill:rgb(0, 0, 0);stroke:rgb(29, 158, 117);color:rgb(255, 255, 255);stroke-width:1.5px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+  <!-- Mecanum Motors box -->
+  <rect x="549" y="60" width="118" height="70" rx="4" fill="#EAF3DE" stroke="#3B6D11" stroke-width="0.5" style="fill:rgb(234, 243, 222);stroke:rgb(59, 109, 17);color:rgb(255, 255, 255);stroke-width:0.5px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <text x="608" y="84" text-anchor="middle" font-size="12" font-weight="500" fill="#173404" style="fill:rgb(23, 52, 4);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:sans-serif;font-size:12px;font-weight:500;text-anchor:middle;dominant-baseline:auto">Mecanum Wheels</text>
+  <text x="608" y="100" text-anchor="middle" font-size="10" fill="#27500A" style="fill:rgb(39, 80, 10);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:sans-serif;font-size:10px;font-weight:400;text-anchor:middle;dominant-baseline:auto">4-wheel drive</text>
+  <text x="608" y="114" text-anchor="middle" font-size="10" fill="#27500A" style="fill:rgb(39, 80, 10);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:sans-serif;font-size:10px;font-weight:400;text-anchor:middle;dominant-baseline:auto">PWM · Wheel equations</text>
+
+  <!-- Arrow Arduino → Rack System -->
+  <line x1="502" y1="222" x2="548" y2="290" stroke="#1D9E75" stroke-width="1.5" marker-end="url(#arr-teal)" style="fill:rgb(0, 0, 0);stroke:rgb(29, 158, 117);color:rgb(255, 255, 255);stroke-width:1.5px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+  <!-- Rack System box -->
+  <rect x="549" y="260" width="118" height="70" rx="4" fill="#EAF3DE" stroke="#3B6D11" stroke-width="0.5" style="fill:rgb(234, 243, 222);stroke:rgb(59, 109, 17);color:rgb(255, 255, 255);stroke-width:0.5px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <text x="608" y="284" text-anchor="middle" font-size="12" font-weight="500" fill="#173404" style="fill:rgb(23, 52, 4);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:sans-serif;font-size:12px;font-weight:500;text-anchor:middle;dominant-baseline:auto">Rack System</text>
+  <text x="608" y="300" text-anchor="middle" font-size="10" fill="#27500A" style="fill:rgb(39, 80, 10);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:sans-serif;font-size:10px;font-weight:400;text-anchor:middle;dominant-baseline:auto">DC Motor</text>
+  <text x="608" y="314" text-anchor="middle" font-size="10" fill="#27500A" style="fill:rgb(39, 80, 10);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:sans-serif;font-size:10px;font-weight:400;text-anchor:middle;dominant-baseline:auto">Limit Switch</text>
+
+  <!-- Arrow Arduino → Arrow down to noise fix note -->
+  <line x1="442" y1="245" x2="442" y2="330" stroke="#888780" stroke-width="1" stroke-dasharray="4,3" style="fill:rgb(0, 0, 0);stroke:rgb(136, 135, 128);color:rgb(255, 255, 255);stroke-width:1px;stroke-dasharray:4px, 3px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+  <!-- Debugging note -->
+  <rect x="340" y="331" width="200" height="52" rx="4" fill="#F1EFE8" stroke="#B4B2A9" stroke-width="0.5" style="fill:rgb(241, 239, 232);stroke:rgb(180, 178, 169);color:rgb(255, 255, 255);stroke-width:0.5px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <text x="440" y="350" text-anchor="middle" font-size="10" font-weight="500" fill="#2C2C2A" style="fill:rgb(44, 44, 42);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:sans-serif;font-size:10px;font-weight:500;text-anchor:middle;dominant-baseline:auto">Debugging fix</text>
+  <text x="440" y="365" text-anchor="middle" font-size="10" fill="#5F5E5A" style="fill:rgb(95, 94, 90);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:sans-serif;font-size:10px;font-weight:400;text-anchor:middle;dominant-baseline:auto">Motor noise → 5% error threshold</text>
+  <text x="440" y="378" text-anchor="middle" font-size="10" fill="#5F5E5A" style="fill:rgb(95, 94, 90);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:sans-serif;font-size:10px;font-weight:400;text-anchor:middle;dominant-baseline:auto">applied to joystick input</text>
+
+  <!-- Legend -->
+  <text x="20" y="355" font-size="10" fill="#888780" style="fill:rgb(136, 135, 128);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:sans-serif;font-size:10px;font-weight:400;text-anchor:start;dominant-baseline:auto">Legend</text>
+  <line x1="20" y1="368" x2="45" y2="368" stroke="#378ADD" stroke-width="1.5" marker-end="url(#arr-blue)" style="fill:rgb(0, 0, 0);stroke:rgb(55, 138, 221);color:rgb(255, 255, 255);stroke-width:1.5px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <text x="50" y="372" font-size="10" fill="#5F5E5A" style="fill:rgb(95, 94, 90);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:sans-serif;font-size:10px;font-weight:400;text-anchor:start;dominant-baseline:auto">Bluetooth</text>
+  <line x1="110" y1="368" x2="135" y2="368" stroke="#888780" stroke-width="1.5" marker-end="url(#arr)" style="fill:rgb(0, 0, 0);stroke:rgb(136, 135, 128);color:rgb(255, 255, 255);stroke-width:1.5px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <text x="140" y="372" font-size="10" fill="#5F5E5A" style="fill:rgb(95, 94, 90);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:sans-serif;font-size:10px;font-weight:400;text-anchor:start;dominant-baseline:auto">Serial</text>
+  <line x1="185" y1="368" x2="210" y2="368" stroke="#1D9E75" stroke-width="1.5" marker-end="url(#arr-teal)" style="fill:rgb(0, 0, 0);stroke:rgb(29, 158, 117);color:rgb(255, 255, 255);stroke-width:1.5px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <text x="215" y="372" font-size="10" fill="#5F5E5A" style="fill:rgb(95, 94, 90);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:sans-serif;font-size:10px;font-weight:400;text-anchor:start;dominant-baseline:auto">PWM control</text>
+  <line x1="285" y1="368" x2="310" y2="368" stroke="#888780" stroke-width="1" stroke-dasharray="4,3" style="fill:rgb(0, 0, 0);stroke:rgb(136, 135, 128);color:rgb(255, 255, 255);stroke-width:1px;stroke-dasharray:4px, 3px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <text x="315" y="372" font-size="10" fill="#5F5E5A" style="fill:rgb(95, 94, 90);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:sans-serif;font-size:10px;font-weight:400;text-anchor:start;dominant-baseline:auto">Note</text>
+</svg>

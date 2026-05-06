@@ -1,0 +1,65 @@
+services:
+  database:
+    image: postgres:17-alpine3.22
+    platform: linux/amd64
+    container_name: pgdatabase
+    restart: always
+    shm_size: 128mb
+    ports:
+      - "${PORT_DB:-15432}:5432"
+    environment:
+      POSTGRES_USER: ${POSTGRES_USER:-root}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-root}
+      POSTGRES_DB: ${POSTGRES_DB:-invoices_db}
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+      - ./database/init:/docker-entrypoint-initdb.d
+    networks:
+      - invoicedoc-network
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U root"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  server:
+    build:
+      context: ./server
+      dockerfile: Dockerfile
+    platform: linux/amd64
+    container_name: invoicedoc-server
+    restart: always
+    ports:
+      - "${PORT_SERVER:-4000}:4000"
+    environment:
+      PORT: 4000
+      HOST: ${HOST_SERVER:-0.0.0.0}
+      DATABASE_URL: ${DATABASE_URL:-postgresql://root:root@database:5432/invoices_db}
+      CORS_ORIGIN: ${CORS_ORIGIN:-}
+    depends_on:
+      database:
+        condition: service_healthy
+    networks:
+      - invoicedoc-network
+
+  client:
+    build:
+      context: ./client
+      dockerfile: Dockerfile
+      args:
+        VITE_API_BASE: ${VITE_API_BASE:-http://localhost:4000}
+    platform: linux/amd64
+    container_name: invoicedoc-client
+    restart: always
+    ports:
+      - "${PORT_CLIENT:-3000}:3000"
+    depends_on:
+      - server
+    networks:
+      - invoicedoc-network
+
+volumes:
+  pgdata:
+
+networks:
+  invoicedoc-network: {}

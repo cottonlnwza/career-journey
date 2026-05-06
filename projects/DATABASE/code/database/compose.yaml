@@ -1,0 +1,90 @@
+# Docker Compose file (version attribute is obsolete in Compose V2 and is omitted)
+# Use postgres/example user/password credentials
+#
+# Windows: If you see "exec format error", remove the cached image and start again:
+#   docker compose down  then  docker rmi postgres:17  then  docker compose up -d
+
+# You should know that Docker Compose works with services.
+# 1 service = 1 container.
+# For example, a service, a server, a client, a database...
+# We use the keyword 'services' to start to create services.
+services:
+  # The name of our service is "database"
+  # but you can use the name of your choice.
+  # Note: This may change the commands you are going to use a little bit.
+  pgdatabase:
+  # https://hub.docker.com/_/postgres
+    # Official Postgres image from DockerHub (we use the last version)
+    container_name: pgdatabase
+    image: "postgres:17-alpine3.22"
+    # Force amd64 image so it runs on Windows (Docker Desktop) and avoids exec format error
+    platform: linux/amd64
+
+    restart: always
+    # set shared memory limit when using docker compose
+    shm_size: 128mb
+    # or set shared memory limit when deploy via swarm stack
+    #volumes:
+    #  - type: tmpfs
+    #    target: /dev/shm
+    #    tmpfs:
+    #      size: 134217728 # 128*2^20 bytes = 128Mb
+
+    # By default, a Postgres database is running on the 5432 port.
+    # If we want to access the database from our computer (outside the container),
+    # we must share the port with our computer's port.
+    # The syntax is [port we want on our machine]:[port we want to retrieve in the container]
+    # Note: You are free to change your computer's port,
+    # but take into consideration that it will change the way
+    # you are connecting to your database.
+    ports:
+      - 15432:5432 #ถ้าต้องต้องการเข้าถึงจาก Host ได้ ให้ปิด comment บรรทัดนี้
+
+    environment:
+      POSTGRES_USER: root # The PostgreSQL user (useful to connect to the database)
+      POSTGRES_PASSWORD: root # The PostgreSQL password (useful to connect to the database)
+      POSTGRES_DB: invoices_db # The PostgreSQL default database (automatically created at first launch)
+
+    ####
+    ## If you want to use a `.env` file, please comment the `environment` section.
+    ####
+
+    # The `env_file` tag allows us to declare an environment file
+    #env_file:
+    #  - .env # The name of your environment file (the one at the repository root)
+
+    ####
+    ## If you want to persist the database data, please uncomment the lines below.
+    ####
+
+    # The `volumes` tag allows us to share a folder with our container.
+    # Its syntax is as follows: [folder path on our machine]:[folder path to retrieve in the container]
+    volumes:
+      # In this example, we share the folder `db-data` in our root repository, with the default PostgreSQL data path.
+      # It means that every time the repository is modifying the data inside
+      # of `/var/lib/postgresql/data/`, automatically the change will appear in `db-data`.
+      # You don't need to create the `db-data` folder. Docker Compose will do it for you.
+      # - ./db-data/:/var/lib/postgresql/data/
+      - pgdata:/var/lib/postgresql/data
+      - ./init:/docker-entrypoint-initdb.d # Files in "docker-entrypoint-initdb.d" folder will be executed in alphabetical order.
+    networks:
+      - compose_network
+  
+
+  adminer:
+    image: adminer
+    platform: linux/amd64
+    restart: always
+    ports:
+      - 8080:8080
+    depends_on:
+      - pgdatabase
+    networks:
+      - compose_network
+# Create name volumes managed by Docker to not lose data when remove a container
+# https://docs.docker.com/compose/compose-file/compose-file-v3/#volumes
+volumes:
+  pgdata:
+
+networks:
+  compose_network:

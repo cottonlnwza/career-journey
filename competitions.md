@@ -3,17 +3,17 @@
 This section records competitions, activities, workshops, and experiences that helped me grow.
 
 ## 2026
-- [ABU Robocon 2026](competitions/2025/ABU-ROBOCON-2025/Readme.md)
-- [SUTD Student Exchange Program 2026](competitions/2026/competition-2/README.md)
+- [ABU Robocon 2026](competitions/2026/ABU-ROBOCON-2026/README.md)
+- SUTD Student Exchange Program 2026
 - SMO Student Organization Activity 2026
 - Modcom Express 2026
 
 ## 2025
-- [ABU Robocon 2025](competitions/2025/ABU-ROBOCON-2025/Readme.md)
-- [Nachi Robotics Systems](Readme.md)
-- [SUTD Student Exchange Program 2025](competitions/2026/competition-2/README.md)
-- [Microcontroller Workshop (Instructor)](competitions/2026/competition-2/README.md)
-- [SolidWorks Workshop (Organizer)](competitions/2026/competition-2/README.md)
+- [ABU Robocon 2025](competitions/2025/ABU-ROBOCON-2025/README.md)
+- Nachi Robotics Systems
+- SUTD Student Exchange Program 2025
+- Microcontroller Workshop (Instructor)
+- SolidWorks Workshop (Organizer)
 
 ## Before University (High School)
 

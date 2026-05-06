@@ -1,0 +1,87 @@
+// Invoice API handlers: list, get, create, update, delete.
+import * as invoicesService from "../services/invoices.service.js";
+// import { CreateInvoiceSchema } from "../models/invoice.model.js";
+import { sendList, sendOne, sendCreated, sendOk, sendError } from "../utils/response.js";
+import logger from "../utils/logger.js";
+
+export async function listInvoices(req, res) {
+  try {
+    const result = await invoicesService.listInvoices(req.query);
+    sendList(res, result);
+  } catch (err) {
+    logger.error("listInvoices failed", { error: err?.message ?? String(err) });
+    sendError(res, err?.message ?? String(err), 500);
+  }
+}
+
+export async function listUnpaidInvoices(req, res) {
+  try {
+    const result = await invoicesService.listUnpaidInvoices(req.query);
+    sendOne(res, result.data);
+  } catch (err) {
+    logger.error("listUnpaidInvoices failed", { error: err?.message ?? String(err) });
+    sendError(res, err?.message ?? String(err), err?.statusCode || 500);
+  }
+}
+
+export async function getInvoice(req, res) {
+  try {
+    const invoiceNo = decodeURIComponent(req.params.invoiceNo || "");
+    const result = await invoicesService.getInvoice(invoiceNo);
+    if (!result) return sendError(res, "Invoice not found", 404);
+    sendOne(res, result);
+  } catch (err) {
+    logger.error("getInvoice failed", { invoiceNo: req.params.invoiceNo, error: err?.message ?? String(err) });
+    sendError(res, err?.message ?? String(err), 500);
+  }
+}
+
+export async function createInvoice(req, res) {
+  // const parsed = CreateInvoiceSchema.safeParse(req.body);
+  // if (!parsed.success) return sendError(res, "Validation failed", 400, "VALIDATION_ERROR", parsed.error.flatten());
+  try {
+    const result = await invoicesService.createInvoice(req.body);
+    sendCreated(res, result);
+  } catch (err) {
+    logger.error("createInvoice failed", { error: err?.message ?? String(err) });
+    sendError(res, err?.message ?? String(err), 500);
+  }
+}
+
+export async function deleteInvoice(req, res) {
+  try {
+    const invoiceNo = decodeURIComponent(req.params.invoiceNo || "");
+    const result = await invoicesService.deleteInvoice(invoiceNo);
+    if (!result) return sendError(res, "Invoice not found", 404);
+    sendOk(res, result);
+  } catch (err) {
+    logger.error("deleteInvoice failed", { invoiceNo: req.params.invoiceNo, error: err?.message ?? String(err) });
+    sendError(res, err?.message ?? String(err), 500);
+  }
+}
+
+export async function getInvoiceReceived(req, res) {
+  try {
+    const invoiceNo = decodeURIComponent(req.params.invoiceNo || "");
+    const result = await invoicesService.getInvoiceReceived(invoiceNo, req.query);
+    if (!result) return sendError(res, "Invoice not found", 404);
+    sendOne(res, result);
+  } catch (err) {
+    logger.error("getInvoiceReceived failed", { invoiceNo: req.params.invoiceNo, error: err?.message ?? String(err) });
+    sendError(res, err?.message ?? String(err), 500);
+  }
+}
+
+export async function updateInvoice(req, res) {
+  // const parsed = CreateInvoiceSchema.safeParse(req.body);
+  // if (!parsed.success) return sendError(res, "Validation failed", 400, "VALIDATION_ERROR", parsed.error.flatten());
+  try {
+    const invoiceNo = decodeURIComponent(req.params.invoiceNo || "");
+    const result = await invoicesService.updateInvoice(invoiceNo, req.body);
+    if (!result) return sendError(res, "Invoice not found", 404);
+    sendOk(res, result);
+  } catch (err) {
+    logger.error("updateInvoice failed", { invoiceNo: req.params.invoiceNo, error: err?.message ?? String(err) });
+    sendError(res, err?.message ?? String(err), 500);
+  }
+}

@@ -4,6 +4,7 @@ This section records competitions, activities, workshops, and experiences that h
 
 ## 2026
 - [ABU Robocon 2026](competitions/2026/ABU-ROBOCON-2026/README.md)
+- [Robotics & Automation Competition 4 — Type 2 (Nachi Robot)](competitions/2026/ROBOTICS-AUTOMATION-4/README.md)
 - SUTD Student Exchange Program 2026
 - SMO Student Organization Activity 2026
 - Modcom Express 2026

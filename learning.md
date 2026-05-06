@@ -17,6 +17,10 @@ This section collects what I have learned from courses, self-study, and technica
 - Practiced hardware-software integration
 
 
+---
+
+## Repository Sections
+
 - [Learning](learning.md)
 - [Projects](projects.md)
 - [Competitions & Activities](competitions.md)

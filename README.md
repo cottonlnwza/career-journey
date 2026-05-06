@@ -1,45 +1,55 @@
-# Career Journey
+# Career Journey — Cotton
+
+Computer Engineering student at KMUTT, Year 2. Focused on Robotics, Embedded Systems, and Software Development.
+
+This repo documents my actual engineering work — projects, competitions, and skills built through hands-on experience.
+
+---
 
 ## About Me
-I am a Computer Engineering student interested in robotics, embedded systems, and software development.
 
-I enjoy building engineering projects, experimenting with hardware systems, and solving technical problems.
+I build things. From combat robots to full-stack web apps to mushroom detection prototypes — I take projects from diagram to working system.
 
-This repository documents my engineering journey, including my projects, competitions, learning experiences, and future goals.
+My approach: design on paper first, build second. Every project starts with a wiring diagram or system plan before touching hardware or writing code.
 
----
-
-## Areas of Interest
-- Robotics
-- Embedded Systems
-- Software Development
-- Algorithms and Problem Solving
-- Engineering Projects
+Currently competing in **ABU Robocon 2026** and continuing to expand across embedded, mechanical, and software domains.
 
 ---
 
-## What You Can Find in This Repository
-This repository is organized to document my growth as an engineer.
+## Skills
 
-Here you will find:
+### Programming
+| Language | Context |
+|---|---|
+| C / C++ | Arduino, ESP32 — motor control, sensors, Bluetooth |
+| Python | Computer vision (YOLOv8), IoT, MongoDB, LINE Bot |
+| SQL | PostgreSQL — schema design, triggers, views |
+| JavaScript | React 18, Node.js/Express — full-stack web |
+| Lua | Nachi industrial robot arm programming |
+| Git / GitHub | Version control, project documentation |
 
-- My learning journey
-- Academic and personal projects
-- Competition experiences
-- Technical skills
-- Future career goals
+### Hardware & Embedded
+- **Microcontrollers:** ESP32, Arduino (Uno, Mega)
+- **Single Board:** Raspberry Pi 4
+- **Protocols:** UART Serial, I2C, PWM, Bluetooth (PS5 pairing)
+- **Sensors:** DHT11/22, Ultrasonic (A02YYUW), Limit Switches, OLED (SSD1306)
+- **Actuators:** DC motors, Servo, Motor Drivers, Mecanum/Omni wheels
+- **Industrial Robot:** Nachi 6-axis arm (FD On Desk, encoder calibration)
+
+### Mechanical & Fabrication
+- SolidWorks (3D modeling, enclosure design, component layout)
+- Laser Cutting, 3D Printing
+- Arc Welding / Gas Welding
+- Milling, Lathe, Mechanical Assembly
 
 ---
 
-## Current Focus
-I am currently focusing on improving my skills in robotics systems, embedded programming, and engineering problem solving through projects and competitions.
+## Projects
+
+→ [projects.md](projects.md)
 
 ---
 
-## Repository Sections
+## Competitions & Activities
 
-- [Learning](learning.md)
-- [Projects](projects.md)
-- [Competitions & Activities](competitions.md)
-- [Skills](skills.md)
-- [Future Goals](future-goals.md)
+→ [competitions.md](competitions.md)

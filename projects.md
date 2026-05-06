@@ -13,10 +13,4 @@ This section contains the projects I have worked on in academic, personal, and t
 
 ---
 
-## Repository Sections
-
-- [Learning](learning.md)
-- [Projects](projects.md)
-- [Competitions & Activities](competitions.md)
-- [Skills](skills.md)
-- [Future Goals](future-goals.md)
+→ [Back to README](README.md) · [Competitions & Activities](competitions.md)

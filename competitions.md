@@ -36,10 +36,4 @@ Completed multiple workshops related to engineering technologies including:
 
 ---
 
-## Repository Sections
-
-- [Learning](learning.md)
-- [Projects](projects.md)
-- [Competitions & Activities](competitions.md)
-- [Skills](skills.md)
-- [Future Goals](future-goals.md)
+→ [Back to README](README.md) · [Projects](projects.md)

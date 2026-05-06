@@ -22,3 +22,13 @@
 - Teamwork
 - System Integration
 - Technical Communication
+
+  ---
+
+## Repository Sections
+
+- [Learning](learning.md)
+- [Projects](projects.md)
+- [Competitions & Activities](competitions.md)
+- [Skills](skills.md)
+- [Future Goals](future-goals.md)

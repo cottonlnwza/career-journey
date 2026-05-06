@@ -11,3 +11,15 @@ This section contains the projects I have worked on in academic, personal, and t
 ## 2025
 
 - [Project CPE : เครื่องต้นแบบการตรวจสอบเห็ดอัตโนมัติ](competitions/2026/abu-robocon-2026/README.md)
+
+
+
+---
+
+## Repository Sections
+
+- [Learning](learning.md)
+- [Projects](projects.md)
+- [Competitions & Activities](competitions.md)
+- [Skills](skills.md)
+- [Future Goals](future-goals.md)

@@ -15,3 +15,10 @@ This section collects what I have learned from courses, self-study, and technica
 ### Embedded Systems
 - Worked with Arduino, sensors, and motor control
 - Practiced hardware-software integration
+
+
+- [Learning](learning.md)
+- [Projects](projects.md)
+- [Competitions & Activities](competitions.md)
+- [Skills](skills.md)
+- [Future Goals](future-goals.md)

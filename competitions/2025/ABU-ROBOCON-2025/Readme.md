@@ -5,7 +5,7 @@
 
 ## My Role
 
-- **Sole Engineer — Manual Robot (R2)**
+- **Devoloper Engineer — Manual Robot (R2)**
 - Embedded Software Development (ESP32 + Arduino)
 - Electronics Design & Wiring
 - Mechanical Integration (SolidWorks, Laser Cutting, Board Layout)
@@ -37,15 +37,12 @@ I handled the full software stack for this robot — from system architecture an
 
 ### 1. System Design & Hardware
 
-Before building, I drew an overview diagram in **Miro** to plan the full system architecture:
+Before building, I drew an overview diagram first to plan the full system architecture:
 
 - Analyzed current draw across the system and selected appropriate wire gauges
 - Designed board layout within the limited space on the robot chassis
 - Selected sensor modules suited to each task
 - Used **Laser Cutting** to cut acrylic sheets for mounting control boards on the robot frame
-
-**Why IOXESP32 + Arduino instead of a single board:**  
-The IOXESP32 has a dedicated external antenna connector, providing more stable Bluetooth reception than a standard ESP32. It sends raw joystick values to the Arduino, which handles all processing and sensor control.
 
 ### 2. Communication System
 

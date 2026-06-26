@@ -33,7 +33,7 @@ I handled the full software stack for this robot — from system architecture an
 
 ## Development Process
 
-<img src="images/image_diagram.png" width="1000">
+<img src="images/image_daigram.png" width="1000">
 
 ### 1. System Design & Hardware
 

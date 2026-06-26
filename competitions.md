@@ -3,7 +3,7 @@
 This section records competitions, activities, workshops, and experiences that helped me grow.
 
 ## 2026
-- [ABU Robocon 2026](competitions/2026/abu-robocon-2026) —
+- [ABU Robocon 2026](competitions/2026/ABU-ROBOCON-2026/Readme.md) —
 - [Robotics & Automation Competition 4 — Type 2 (Nachi Robot)](competitions/2026/ROBOTICS-AUTOMATION-4/README.md) — Programmed a 6-axis Nachi industrial robot arm using FD On Desk simulation and Lua scripting language.
 - **SUTD Student Exchange Program 2026** — *(add description)*
 - **SMO Student Organization Activity 2026** — *(add description)*

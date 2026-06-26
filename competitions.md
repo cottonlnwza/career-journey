@@ -10,7 +10,7 @@ This section records competitions, activities, workshops, and experiences that h
 - **Modcom Express 2026** — *(add description)*
 
 ## 2025
-- [ABU Robocon 2025](competitions/2025/ABU-ROBOCON-2025/Readme.md) — Sole engineer on Manual Robot R2 — ESP32 + PS5 Bluetooth, Mecanum drive, custom board layout. 5th place.
+- [ABU Robocon 2025](competitions/2025/ABU-ROBOCON-2025/Readme.md) — Devoloper engineer on Manual Robot R2 — ESP32 + PS5 Bluetooth, Mecanum drive, custom board layout. 5th place.
 - **Joint Program on Physical World — SUTD × KMUTT** — Collaboration between SUTD and KMUTT Residential College. Installed solar cells at a remote school in Amphoe Suan Phueng, Ratchaburi. Organized robot-building workshops for local students.
 - **SolidWorks Workshop (Organizer)** — *(add description)*
 

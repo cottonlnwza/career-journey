@@ -30,7 +30,7 @@ The field is divided into three zones that map directly to the robot's control m
 | Zone 2 | Meihua Forest (MF) | Collect Kung Fu Scrolls (KFS) with the KFS arm |
 | Zone 3 | Arena | Place KFS on the 3×3 Tic-Tac-Toe rack (10–80 pts/slot), release weapons |
 
-**National qualifier result: Passed — Top 12 teams in Thailand**
+**National qualifier result: Top 12 teams in Thailand — eliminated at national round**
 
 ---
 
@@ -172,8 +172,8 @@ Teensy loses DDS bridge connection when PC suspends; manual agent restart requir
 
 ### 7. Competition Result
 
-- **National qualifier: Passed — Top 12 teams in Thailand**
-- Competition date: 23 August 2026, Queen Elizabeth Stadium, Hong Kong
+- **National qualifier (TPA Robot Cup 2026): Top 12 teams in Thailand**
+- Eliminated at the national round — did not advance to the international final in Hong Kong
 
 ---
 
@@ -224,7 +224,6 @@ Proud of the architecture we shipped — a clean zone-based Behavior Tree with f
 
 ---
 
-> *(Video การแข่งขันที่ฮ่องกง — 23 ส.ค. 2026)*
 
 ---
 

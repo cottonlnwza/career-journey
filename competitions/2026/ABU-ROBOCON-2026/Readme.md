@@ -218,7 +218,13 @@ Proud of the architecture we shipped — a clean zone-based Behavior Tree with f
 
 ---
 
-> *(รูปหุ่นยนต์ตอนแข่ง และ video การแข่งขันที่ฮ่องกง — เพิ่มในภายหลัง)*
+**National Qualifier — TPA Robot Cup 2026**
+
+[![Competition](https://img.youtube.com/vi/jWitM3BCHPs/0.jpg)](https://youtu.be/jWitM3BCHPs)
+
+---
+
+> *(Video การแข่งขันที่ฮ่องกง — 23 ส.ค. 2026)*
 
 ---
 

@@ -192,17 +192,33 @@ Proud of the architecture we shipped — a clean zone-based Behavior Tree with f
 
 ---
 
-## Images
+## Images & Videos
 
-> *(Add images to the `images/` folder and link them here)*
+**Team — TPA Robot Cup 2026 (National Qualifier)**
 
-| Description | File |
-|-------------|------|
-| Team photo | `images/team.jpg` |
-| Robot R1 full view | `images/robot_r1.jpg` |
-| Homing / setup procedure | `images/homing_setup.jpg` |
-| Robot running / testing | `images/testing.jpg` |
-| Competition at arena | `images/competition.jpg` |
+<img src="images/team.jpg" width="1000">
+
+---
+
+**Robot R1 — Development Phase**
+
+<img src="images/robot_r1_dev.jpg" width="800">
+
+---
+
+**Homing Setup — Pre-Match Calibration**
+
+[![Homing Setup](https://img.youtube.com/vi/M_L4-XOlQBw/0.jpg)](https://youtube.com/shorts/M_L4-XOlQBw)
+
+---
+
+**System Test — Semi-Auto Mode**
+
+[![Semi-Auto System Test](https://img.youtube.com/vi/zetybyV0h9w/0.jpg)](https://youtu.be/zetybyV0h9w)
+
+---
+
+> *(รูปหุ่นยนต์ตอนแข่ง และ video การแข่งขันที่ฮ่องกง — เพิ่มในภายหลัง)*
 
 ---
 

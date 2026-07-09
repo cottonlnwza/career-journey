@@ -30,8 +30,6 @@ Before building, I designed the full system layout and drew all wiring diagrams:
 
 https://miro.com/app/board/uXjVJn5WIfY=/
 
-<img src="projects/image_project/boxing_robot_pic1.png" width="1000">
-
 **Components:**
 - **ESP32** — main controller (Bluetooth + PWM output)
 - **PS5 Controller** — wireless control via Bluetooth (MAC address paired)

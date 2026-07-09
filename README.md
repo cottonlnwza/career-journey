@@ -23,7 +23,7 @@ Currently competing in **ABU Robocon 2026** and continuing to expand across embe
 |---|---|
 | C / C++ | Arduino, ESP32 — motor control, sensors, Bluetooth |
 | Python | Computer vision (YOLOv8), IoT, MongoDB, LINE Bot |
-| SQL | PostgreSQL — schema design, triggers, views |
+| SQL | PostgreSQL — schema design|
 | Lua | Nachi industrial robot arm programming |
 | Git / GitHub | Version control, project documentation |
 

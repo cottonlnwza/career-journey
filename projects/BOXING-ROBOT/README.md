@@ -26,7 +26,11 @@ As team leader, I was responsible for the overall design — deciding where ever
 
 Before building, I designed the full system layout and drew all wiring diagrams:
 
-<img src="images/My First Board (3).jpg" width="1000">
+##Link
+
+https://miro.com/app/board/uXjVJn5WIfY=/
+
+<img src="projects/image_project/boxing_robot_pic1.png" width="1000">
 
 **Components:**
 - **ESP32** — main controller (Bluetooth + PWM output)

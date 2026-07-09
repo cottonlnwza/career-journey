@@ -24,14 +24,13 @@ Currently competing in **ABU Robocon 2026** and continuing to expand across embe
 | C / C++ | Arduino, ESP32 — motor control, sensors, Bluetooth |
 | Python | Computer vision (YOLOv8), IoT, MongoDB, LINE Bot |
 | SQL | PostgreSQL — schema design, triggers, views |
-| JavaScript | React 18, Node.js/Express — full-stack web |
 | Lua | Nachi industrial robot arm programming |
 | Git / GitHub | Version control, project documentation |
 
 ### Hardware & Embedded
 - **Microcontrollers:** ESP32, Arduino (Uno, Mega)
 - **Single Board:** Raspberry Pi 4
-- **Protocols:** UART Serial, I2C, PWM, Bluetooth (PS5 pairing)
+- **Protocols:** UART Serial, I2C, PWM, Bluetooth (PS5 pairing) and communication board to board
 - **Sensors:** DHT11/22, Ultrasonic (A02YYUW), Limit Switches, OLED (SSD1306)
 - **Actuators:** DC motors, Servo, Motor Drivers, Mecanum/Omni wheels
 - **Industrial Robot:** Nachi 6-axis arm (FD On Desk, encoder calibration)

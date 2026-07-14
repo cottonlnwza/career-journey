@@ -78,20 +78,6 @@ Planned board placement within the robot chassis to minimize cable length and EM
 
 ---
 
-## Personal Reflection
-
-**Hardest part:**  
-Planning the board layout. The chassis has limited space — deciding where to mount the ESP32, motor drivers, and limit switch wiring while keeping everything accessible for debugging required multiple iterations on paper before touching any hardware.
-
-**What I learned:**
-- How to implement non-blocking timed sequences with `millis()` — avoids freezing the control loop like `delay()` would
-- How to use limit switches with `INPUT_PULLUP` correctly — the inverted logic (LOW = triggered) is a common source of bugs
-- How Omni3 kinematics work in practice and how to normalize wheel speeds to prevent clipping
-
-**Overall:**  
-Leading this project taught me that the most important work happens before writing a single line of code. The diagrams and layout plans I drew shaped everything else — code, wiring, and debugging.
-
----
 
 ## Code
 

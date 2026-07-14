@@ -13,7 +13,7 @@ This repo documents my actual engineering work — projects, competitions, and s
 | Language | Context |
 |---|---|
 | C / C++ | Arduino, ESP32 — motor control, sensors, Bluetooth |
-| Python | Computer vision (YOLOv8), IoT, MongoDB, LINE Bot |
+| Python | Computer vision (YOLOv8), IoT, LINE Bot |
 | SQL | PostgreSQL — schema design|
 | Lua | Nachi industrial robot arm programming |
 | Git / GitHub | Version control, project documentation |

@@ -6,15 +6,6 @@ This repo documents my actual engineering work — projects, competitions, and s
 
 ---
 
-## About Me
-
-I build things. From combat robots to full-stack web apps to mushroom detection prototypes — I take projects from diagram to working system.
-
-My approach: design on paper first, build second. Every project starts with a wiring diagram or system plan before touching hardware or writing code.
-
-Currently competing in **ABU Robocon 2026** and continuing to expand across embedded, mechanical, and software domains.
-
----
 
 ## Skills
 

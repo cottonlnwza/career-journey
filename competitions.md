@@ -3,11 +3,11 @@
 This section records competitions, activities, workshops, and experiences that helped me grow.
 
 ## 2026
+- **Work and Travel USA 2026** — Participated in a J-1 cultural exchange program in Wisconsin Dells, USA, gaining international work experience and cross-cultural communication skills.
 - [ABU Robocon 2026](competitions/2026/ABU-ROBOCON-2026/Readme.md) —Embedded Software Developer & Wiring — Robot R1 (Manual + Semi-Auto)
 - [Robotics & Automation Competition 4 — Type 2 (Nachi Robot)](competitions/2026/ROBOTICS-AUTOMATION-4/README.md) — Programmed a 6-axis Nachi industrial robot arm using FD On Desk simulation and Lua scripting language.
-- **SUTD Student Exchange Program 2026** — *(add description)*
-- **SMO Student Organization Activity 2026** — *(add description)*
-- **Modcom Express 2026** — *(add description)*
+- **SUTD Student Exchange Program 2026** — Participated in an academic and cultural exchange program at the Singapore University of Technology and Design (SUTD), collaborating with students in an international learning environment.
+- **SMO Student Organization Activity 2026** — Contributed to student organization activities, supporting event planning, coordination, and collaboration among students.
 
 ## 2025
 - [ABU Robocon 2025](competitions/2025/ABU-ROBOCON-2025/Readme.md) — Devoloper engineer on Manual Robot R2 — ESP32 + PS5 Bluetooth, Mecanum drive, custom board layout. 5th place.

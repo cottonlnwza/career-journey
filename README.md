@@ -1,6 +1,6 @@
 # Career Journey — Cotton
 
-Computer Engineering student at KMUTT, Year 2. Focused on Robotics, Embedded Systems, and Software Development.
+Computer Engineering student at KMUTT. Focused on Robotics, Embedded Systems, and Software Development.
 
 This repo documents my actual engineering work — projects, competitions, and skills built through hands-on experience.
 
